@@ -1,0 +1,14 @@
+installation
+symfony new --full my_project | symfony new --full ./
+
+running server
+symfony serve
+
+Rendering a Template
+composer require twig
+
+Symfony Package
+https://flex.symfony.com/
+
+researching:
+aws/aws-sdk-php
