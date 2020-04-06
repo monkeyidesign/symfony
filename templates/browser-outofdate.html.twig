@@ -1,0 +1,12 @@
+{% if ieCheck %}
+    <div class="container flex-wrap">
+        <section id="ie-block">
+            <div class="d-flex flex-column">
+                <div class="align-content-center">{{ ieCheck }}</div>
+                {% if ieCheckDesc %}
+                    <div class="align-content-center">{{ ieCheckDesc }}</div>
+                {% endif %}
+            </div>
+        </section>
+    </div>
+{% endif %}
